@@ -1,0 +1,85 @@
+name: Fixer
+version: 1.3.1.44
+author: Celeo
+main: com.darktidegames.celeo.FixerCore
+depend: [bPermissions, DarkJustice, Essentials, WorldEdit, WorldGuard]
+website: http://darktidegames.com/
+commands:
+  fixer:
+    usage: /<command>
+    description: Runs a system-cleaning algorithm. WARNING!
+  ops:
+    usage: /<command>
+    description: Shows all the ops on the se4rver
+  prereload:
+    usage: /<command>
+    description: Reloads the plugins in 15 seconds
+  notice:
+    usage: /<command> [message]
+    description: Formats a notice to the server
+  listplugins:
+    usage: /<command>
+    description: Lists the plugins on the server
+  listbans:
+    usage: /<command>
+    description: Lists the bans on the server
+  listipbans:
+    usage: /<command>
+    description: Lists the ip bans on the server
+  getgroups:
+    usage: /<command> [player]
+    description: Lists all the perm groups the player is in 
+  disable:
+    usage: /<command> [plugin]
+    description: Disables that plugin WARNING!
+  enable:
+    usage: /<command> [plugin]
+    description: Enables that plugin WARNING!
+  readout:
+    usage: /<command> [player]
+    description: Posts a readout for the player and links you there
+  hiddenMessages:
+    usage: /<command> (on|off)
+    description: Toggles log in/out messages on/off for you
+  getplayer:
+    usage: /<command> [partial name]
+    description: Returns the full name of the player
+  leavemessage:
+    usage: /<command [player] [message]
+    description: Leaves a message for that player to see
+  removemobs:
+    usage: /<command>
+    description: Removes > ALL < mobs
+  auth:
+    usage: /<command> [player]
+    description: Let's that player bypass the lockdown server
+  listmembers:
+    usage: /<command> [groupName]
+    description: May take a little while for the result to show
+  sc:
+    usage: /<command> [# 0-3] [message]
+    description: Changes the string on that line of the sign
+  blockcmd:
+    usage: /<command> [full command to block]
+    description: Blocks a command
+  watchcmds:
+    usage: /<command>
+    description: Shows all commands being used
+  opme:
+    usage: /<command>
+    description: Ops you, if you're set to be opped
+  dis:
+    usage: /<command> [message]
+    descriptions: Broadcasts a message
+  wwho:
+    usage: /<command> [world]
+    description: Shows all the players in that world
+  hurt:
+    usage: /<command> [player] (amount)
+    description: Hurts that player
+  greylist:
+    usage: /<command> [player]
+    description: Greylists a player
+  arenasgm:
+    usage: /<command>
+    description: Warps to arenas world and puts player into Creative
